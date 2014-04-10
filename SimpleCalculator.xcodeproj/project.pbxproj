@@ -10,6 +10,9 @@
 		05041E3918ED7DF500204C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05041E3818ED7DF500204C53 /* Foundation.framework */; };
 		05041E3C18ED7DF500204C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05041E3B18ED7DF500204C53 /* main.m */; };
 		05041E4018ED7DF500204C53 /* SimpleCalculator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05041E3F18ED7DF500204C53 /* SimpleCalculator.1 */; };
+		05041E4B18ED8D8800204C53 /* Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05041E4A18ED8D8800204C53 /* Validate.m */; };
+		05041E4E18ED995900204C53 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05041E4D18ED995900204C53 /* Operator.m */; };
+		05041E5118EDB41100204C53 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 05041E5018EDB41100204C53 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		05041E3B18ED7DF500204C53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05041E3E18ED7DF500204C53 /* SimpleCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCalculator-Prefix.pch"; sourceTree = "<group>"; };
 		05041E3F18ED7DF500204C53 /* SimpleCalculator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SimpleCalculator.1; sourceTree = "<group>"; };
+		05041E4918ED8D8800204C53 /* Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validate.h; sourceTree = "<group>"; };
+		05041E4A18ED8D8800204C53 /* Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validate.m; sourceTree = "<group>"; };
+		05041E4C18ED995900204C53 /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		05041E4D18ED995900204C53 /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
+		05041E4F18EDB41100204C53 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		05041E5018EDB41100204C53 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,12 @@
 				05041E3B18ED7DF500204C53 /* main.m */,
 				05041E3F18ED7DF500204C53 /* SimpleCalculator.1 */,
 				05041E3D18ED7DF500204C53 /* Supporting Files */,
+				05041E4918ED8D8800204C53 /* Validate.h */,
+				05041E4A18ED8D8800204C53 /* Validate.m */,
+				05041E4C18ED995900204C53 /* Operator.h */,
+				05041E4D18ED995900204C53 /* Operator.m */,
+				05041E4F18EDB41100204C53 /* Calculator.h */,
+				05041E5018EDB41100204C53 /* Calculator.m */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
@@ -139,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05041E4B18ED8D8800204C53 /* Validate.m in Sources */,
+				05041E5118EDB41100204C53 /* Calculator.m in Sources */,
+				05041E4E18ED995900204C53 /* Operator.m in Sources */,
 				05041E3C18ED7DF500204C53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
